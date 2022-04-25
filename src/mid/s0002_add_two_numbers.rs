@@ -46,7 +46,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test() {
+    fn test_0002() {
         let t3 = ListNode::new(3);
 
         let t4 = ListNode {

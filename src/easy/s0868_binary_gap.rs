@@ -30,7 +30,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_xxx() {
+    fn test_0868() {
         let ans = binary_gap(22);
         assert_eq!(ans, 2);
     }

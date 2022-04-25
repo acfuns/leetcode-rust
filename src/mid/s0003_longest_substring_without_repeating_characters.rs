@@ -27,7 +27,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test() {
+    fn test_0003() {
         let s: String = "abcabcbb".into();
         assert_eq!(3, length_of_longest_substring(s))
     }

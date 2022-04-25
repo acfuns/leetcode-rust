@@ -71,7 +71,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_works() {
+    fn test_0068() {
         let words: Vec<String> = vec![
             "Science".into(),
             "is".into(),
