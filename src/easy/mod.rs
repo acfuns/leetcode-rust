@@ -1,4 +1,5 @@
 mod s0868_binary_gap;
+mod s0883_projection_area_of_3d_shapes;
 
 #[cfg(test)]
 mod tests {
