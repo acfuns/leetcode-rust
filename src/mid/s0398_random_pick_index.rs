@@ -1,42 +1,42 @@
-use rand::Rng;
+// use rand::Rng;
 
-struct Solution {
-    arr: Vec<i32>,
-}
+// struct Solution {
+//     arr: Vec<i32>,
+// }
 
-// /**
-//  * `&self` means the method takes an immutable reference.
-//  * If you need a mutable reference, change it to `&mut self` instead.
-//  */
-impl Solution {
-    fn new(nums: Vec<i32>) -> Self {
-        Solution { arr: nums.clone() }
-    }
+// // /**
+// //  * `&self` means the method takes an immutable reference.
+// //  * If you need a mutable reference, change it to `&mut self` instead.
+// //  */
+// impl Solution {
+//     fn _new(nums: Vec<i32>) -> Self {
+//         Solution { arr: nums.clone() }
+//     }
 
-    fn pick(&self, target: i32) -> i32 {
-        let mut i = 0;
-        let mut res = 0;
+//     fn _pick(&self, target: i32) -> i32 {
+//         let mut i = 0;
+//         let mut res = 0;
 
-        for (idx, x) in self.arr.iter().enumerate() {
-            if *x == target {
-                i += 1;
-                // 随机生成 [0, 1] 之间的数
-                let mut rng = rand::thread_rng();
-                // 注意这里fn gen_range<T, R>(&mut self, range: R)
-                // 随机范围生成数是一个range参数，目前 rand 包版本是rand = "0.8.5"
-                // 而 LeetCode 的 rand 版本是 0.7.2 所以要改一下参数
-                // let j: i32 = rng.gen_range(1, i + 1);
-                let j = rng.gen_range(1..=i);
+//         for (idx, x) in self.arr.iter().enumerate() {
+//             if *x == target {
+//                 i += 1;
+//                 // 随机生成 [0, 1] 之间的数
+//                 let mut rng = rand::thread_rng();
+//                 // 注意这里fn gen_range<T, R>(&mut self, range: R)
+//                 // 随机范围生成数是一个range参数，目前 rand 包版本是rand = "0.8.5"
+//                 // 而 LeetCode 的 rand 版本是 0.7.2 所以要改一下参数
+//                 // let j: i32 = rng.gen_range(1, i + 1);
+//                 let j = rng.gen_range(1..=i);
 
-                if j <= 1 {
-                    res = idx as i32;
-                }
-            }
-        }
+//                 if j <= 1 {
+//                     res = idx as i32;
+//                 }
+//             }
+//         }
 
-        res
-    }
-}
+//         res
+//     }
+// }
 
 // /**
 //  * Your Solution object will be instantiated and called as such:
