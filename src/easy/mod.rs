@@ -1,7 +1,7 @@
 mod s0868_binary_gap;
 mod s0883_projection_area_of_3d_shapes;
 mod s0908_smallest_range_i;
-
+mod s0905_sort_array_by_parity;
 #[cfg(test)]
 mod tests {
 
