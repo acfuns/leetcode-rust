@@ -4,7 +4,7 @@ mod s0905_sort_array_by_parity;
 mod s0908_smallest_range_i;
 mod s0933_number_of_recent_calls;
 mod s0937_reorder_data_in_log_files;
-
+mod s0942_di_string_match;
 #[cfg(test)]
 mod tests {
 
