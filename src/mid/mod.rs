@@ -5,6 +5,7 @@ mod s0398_random_pick_index;
 mod s0417_pacific_atlantic_water_flow;
 mod s0433_minimum_genetic_mutation;
 mod s0442_find_all_duplicates_in_an_array;
+mod s0712_minimum_ascii_delete_sum_for_two_strings;
 mod s0713_subarray_product_less_than_k;
 mod s1305_all_elements_in_two_binary_search_trees;
 mod s1823_find_the_winner_of_the_circular_game;
