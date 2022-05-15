@@ -1,3 +1,4 @@
+mod s0812_largest_triangle_area;
 mod s0868_binary_gap;
 mod s0883_projection_area_of_3d_shapes;
 mod s0905_sort_array_by_parity;
