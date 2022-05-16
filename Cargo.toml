@@ -2,6 +2,14 @@
 name = "leetcode-rust"
 version = "0.1.0"
 edition = "2021"
+authors = ["Haolong Sun <1haolong.sun@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/acfuns/leetcode-rust"
+description = "LeetCode Solution in Rust."
+categories = ["algorithms", "leetcode"]
+keywords = ["leetcode"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
