@@ -4,6 +4,7 @@ mod s0015_3sum;
 mod s0398_random_pick_index;
 mod s0417_pacific_atlantic_water_flow;
 mod s0433_minimum_genetic_mutation;
+mod s0436_find_right_interval;
 mod s0442_find_all_duplicates_in_an_array;
 mod s0462_minimum_moves_to_equal_array_elements_ii;
 mod s0712_minimum_ascii_delete_sum_for_two_strings;
