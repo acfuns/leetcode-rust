@@ -8,7 +8,7 @@ mod s0937_reorder_data_in_log_files;
 mod s0942_di_string_match;
 mod s0944_delete_columns_to_make_sorted;
 mod s0953_verifying_an_alien_dictionary;
-
+mod s0961_n_repeated_element_in_size_2n_array;
 #[cfg(test)]
 mod tests {
 
