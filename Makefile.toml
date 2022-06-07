@@ -7,3 +7,6 @@ additional_profiles = [
   "ci-static-code-analysis-tasks",
   "publish-pre-cleanup",
 ]
+
+[env.ci-coverage-tasks]
+CARGO_MAKE_RUN_CODECOV = true
