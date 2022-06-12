@@ -11,6 +11,7 @@ mod s0464_can_i_win;
 mod s0712_minimum_ascii_delete_sum_for_two_strings;
 mod s0713_subarray_product_less_than_k;
 mod s0875_koko_eating_bananas;
+mod s0890_find_and_replace_pattern;
 mod s0926_flip_string_to_monotone_increasing;
 mod s1305_all_elements_in_two_binary_search_trees;
 mod s1823_find_the_winner_of_the_circular_game;
