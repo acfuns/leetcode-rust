@@ -9,6 +9,8 @@ mod s0942_di_string_match;
 mod s0944_delete_columns_to_make_sorted;
 mod s0953_verifying_an_alien_dictionary;
 mod s0961_n_repeated_element_in_size_2n_array;
+mod s1108_defanging_an_ip_address;
+
 #[cfg(test)]
 mod tests {
 
